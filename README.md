@@ -34,7 +34,7 @@ int main() {
     printf("Hi. Im gonna help you solve the quadratic formula.\n");
     printf("First you only have to give me values for a, b, and c, and separate them with a coma:\n"); 
     scanf("%lf, %lf, %lf", &a, &b, &c);
-    while (a == 0) {        //aqui si "a" es 0, pedirle al usuario otro numero
+    while (a == 0) {        
         printf("Can't use that number! Give me another one.\n");
         scanf("%lf", &a);
     }
